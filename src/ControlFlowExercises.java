@@ -31,7 +31,41 @@ public class ControlFlowExercises {
 //                System.out.println(i);
 //            }
 //        }
-
+//        String choice = "y";
+//        while(choice.equalsIgnoreCase("y")) {
+//            System.out.println("What number would you like to go up to?");
+//            Scanner input = new Scanner(System.in);
+//            int number = input.nextInt();
+//
+//            System.out.println("Here is your table!");
+//            System.out.println("number | squared | cubed");
+//            System.out.println("------ | ------- | -----");
+//            for (int i = 1; i <= number; i++) {
+//                int squared = i * i;
+//                int cubed = squared * i;
+//                System.out.println(i + "      | " + squared + "       | " + cubed);
+//            }
+//            System.out.println("Do you want to continue? [y/N]");
+//            input.nextLine();
+//            choice = input.nextLine();
+//        }
+        Scanner input = new Scanner(System.in);
+        System.out.println("What is the number grade?");
+        int numberGrade = input.nextInt();
+        input.nextLine();
+        if (numberGrade >= 99) {
+            System.out.println("The letter grade is: A+");
+        } else if (numberGrade <= 98 && numberGrade >= 88) {
+            System.out.println("The letter grade is: A");
+        } else if (numberGrade <= 87 && numberGrade >= 80) {
+            System.out.println("The letter grade is: B");
+        } else if (numberGrade <= 79 && numberGrade >= 67) {
+            System.out.println("The letter grade is: C");
+        } else if (numberGrade <= 66 && numberGrade >= 60) {
+            System.out.println("The letter grade is: D");
+        } else if (numberGrade <= 59 && numberGrade >= 0) {
+            System.out.println("The letter grade is: F");
+        }
 
     }
 }

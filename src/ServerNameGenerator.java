@@ -5,7 +5,7 @@ public class ServerNameGenerator {
     private static String[] adjectives = {"arrogant", "adorable", "battle-worn", "breakable", "brave", "calculating", "charismatic", "clever", "cold-blooded", "courageous"};
 
 
-    private static String[] nouns = {"armour", "blossom", "cow", "patch", "brave", "breath", "bribe", "actor", "ice", "gold"};
+    private static String[] nouns = {"armour", "blossom", "cow", "patch", "firearm", "breath", "bribe", "actor", "ice", "gold"};
 
 
     public static String randomElement(String[] stringArray){

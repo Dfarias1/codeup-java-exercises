@@ -25,9 +25,6 @@ public class Input {
         return userChoice.equalsIgnoreCase("y") || userChoice.equalsIgnoreCase("yes");
     }
 
-    // use this yesNo method in combination
-    // with getString(). Pass the return from a getString()
-    // to this method
     public boolean yesNo(String input){
         return input.trim().equalsIgnoreCase("y") || input.trim().equalsIgnoreCase("yes");
     }

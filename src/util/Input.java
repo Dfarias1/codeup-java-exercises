@@ -47,7 +47,7 @@ public class Input {
         }
     }
 
-    public int getInt(){
+    public static int getInt(){
         System.out.println("Enter an integer:");
         String userInput = getString();
         try {
